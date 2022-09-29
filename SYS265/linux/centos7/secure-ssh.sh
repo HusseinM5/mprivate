@@ -1,3 +1,7 @@
+# secure-ssh.sh
+# author Mohammed
+# You have to run the script from where the script is located at
+
 username=$1
 useradd $1
 mkdir -p /home/$1/.ssh
